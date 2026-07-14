@@ -11,5 +11,7 @@ classifier grids reused completed corrected CPU raw determinant outputs.  The
 next fitter step is a one-FCN run only after new accepted windows exist; no
 full minimization is started by this task.
 
-Processed but waiting for labels: L24/100_A2 and L20/110_A2.  Remaining queue:
-L20/111_A2, L20/200_A2, L24/110_A2, L24/111_A2, and L24/200_A2.
+L20/110_A2 passed and has an accepted window set. L24/100_A2 failed with one
+false positive in both accepted modes and is excluded pending review. L20/111_A2
+is prepared but still needs labels. No one-FCN or minimization was run because
+the accepted-sector set is not yet clean.

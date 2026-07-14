@@ -1,0 +1,3 @@
+method,TP,FP,FN,TN,runtime_seconds,score,acceptable,status
+digonto_v3_window,4,0,0,32,0.000446456994,4.0,YES,PASS
+digonto_v4_window,4,0,0,32,0.000391034002,4.0,YES,PASS
