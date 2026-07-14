@@ -1,0 +1,8 @@
+method,n_true_zero,n_pole,n_uncertain,runtime_seconds,notes
+raw_sign_only,25,0,0,0.000103702012,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+raw_sign_clustered,25,0,0,6.37740013e-05,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+algo_v6_branch_count_final_select,0,0,25,0.00460785901,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+algo_v7_eigenbranch,0,19,6,0.005026317,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+algo_v7_hybrid_det_eigenbranch,0,19,6,0.004968989,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+digonto_v3_window,2,23,0,0.00033297301,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+digonto_v4_window,2,23,0,0.000277284009,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
