@@ -154,6 +154,7 @@ struct MultiConfig {
     std::map<CacheKey,std::string> accepted_zeros_files;
     std::map<CacheKey,std::string> candidate_brackets_files;
     std::map<CacheKey,std::string> det_grid_files;
+    std::array<bool,4> float_params{true,true,true,true};
 };
 
 static std::vector<std::string> read_raw_lines(const std::string& path) {
@@ -221,6 +222,9 @@ static MultiConfig multiconfig_from_config(const std::string& cfgpath) {
     c.root_search_mode = v32w::gs(kv,"root_search_mode","full_scan");
     c.det_backend = v32w::gs(kv,"det_backend","cpu_openmp");
     c.fallback_full_scan = v32w::gi(kv,"fallback_full_scan",1)!=0;
+    c.float_params = {
+        v32w::gi(kv,"float_K3iso0",1)!=0, v32w::gi(kv,"float_K3iso1",1)!=0,
+        v32w::gi(kv,"float_K3B",1)!=0, v32w::gi(kv,"float_K3E",1)!=0};
     c.window_half_rows = v32w::gi(kv,"window_half_rows",50);
     c.max_window_half_rows = v32w::gi(kv,"max_window_half_rows",250);
     c.base.energy_cutoff = c.energy_cutoff;
@@ -1066,13 +1070,13 @@ static void print_parameter_mask(const MultiConfig& cfg) {
     const std::string bounds = cfg.base.use_parameter_limits
         ? (std::string("[") + std::to_string(cfg.base.param_lower) + ", " + std::to_string(cfg.base.param_upper) + "]")
         : std::string("none");
-    std::cout << "[parameter-mask] K3iso0 floating start=" << std::setprecision(17) << cfg.base.guess.K3iso0
+    std::cout << "[parameter-mask] K3iso0 " << (cfg.float_params[0]?"floating":"fixed") << " start=" << std::setprecision(17) << cfg.base.guess.K3iso0
               << " step=" << cfg.base.step.K3iso0 << " bounds=" << bounds << "\n";
-    std::cout << "[parameter-mask] K3iso1 floating start=" << std::setprecision(17) << cfg.base.guess.K3iso1
+    std::cout << "[parameter-mask] K3iso1 " << (cfg.float_params[1]?"floating":"fixed") << " start=" << cfg.base.guess.K3iso1
               << " step=" << cfg.base.step.K3iso1 << " bounds=" << bounds << "\n";
-    std::cout << "[parameter-mask] K3B floating start=" << std::setprecision(17) << cfg.base.guess.K3B
+    std::cout << "[parameter-mask] K3B " << (cfg.float_params[2]?"floating":"fixed") << " start=" << cfg.base.guess.K3B
               << " step=" << cfg.base.step.K3B << " bounds=" << bounds << "\n";
-    std::cout << "[parameter-mask] K3E floating start=" << std::setprecision(17) << cfg.base.guess.K3E
+    std::cout << "[parameter-mask] K3E " << (cfg.float_params[3]?"floating":"fixed") << " start=" << cfg.base.guess.K3E
               << " step=" << cfg.base.step.K3E << " bounds=" << bounds << "\n";
 }
 
@@ -1168,12 +1172,21 @@ public:
     }
     double Up() const override { return 1.0; }
     double operator()(const std::vector<double>& x) const override {
-        if(x.size()<4) return cfg.base.failure_penalty;
+        const std::array<double,4> fixed_values{cfg.base.guess.K3iso0,cfg.base.guess.K3iso1,cfg.base.guess.K3B,cfg.base.guess.K3E};
+        std::array<double,4> values=fixed_values;
+        const int nfloat = int(std::count(cfg.float_params.begin(),cfg.float_params.end(),true));
+        if(static_cast<int>(x.size())==4) {
+            for(int i=0;i<4;++i) values[std::size_t(i)]=x[std::size_t(i)];
+        } else {
+            if(static_cast<int>(x.size())<nfloat) return cfg.base.failure_penalty;
+            int j=0;
+            for(int i=0;i<4;++i) if(cfg.float_params[std::size_t(i)]) values[std::size_t(i)]=x[std::size_t(j++)];
+        }
         const size_t id = ++evals;
         if(cfg.max_fcn_evals > 0 && id > static_cast<size_t>(cfg.max_fcn_evals)) {
             throw std::runtime_error("short-minimization FCN-call limit exceeded: " + std::to_string(cfg.max_fcn_evals));
         }
-        K3dfParameters kp{x[0],x[1],x[2],x[3]};
+        K3dfParameters kp{values[0],values[1],values[2],values[3]};
         const auto fcn_t0 = std::chrono::steady_clock::now();
         try {
             std::vector<CandidateWithBlock> cands;
@@ -1268,6 +1281,69 @@ public:
         return timing;
     }
 
+    // Diagnostic only: reuse accepted-window model_for() after one cache load.
+    // No fitting or physics path is changed by this mode.
+    int write_parameter_sensitivity(const K3dfParameters& start,
+                                    const K3dfParameters& best,
+                                    const std::array<double,4>& steps,
+                                    const fs::path& outpath) const {
+        struct Point { std::vector<double> model; double chi2=NAN; int found=0; BenchmarkTiming timing; };
+        auto evaluate = [&](const K3dfParameters& kp) {
+            Point p;
+            std::vector<CandidateWithBlock> cands;
+            p.model = model_for(kp, &cands, &p.timing);
+            for(double x : p.model) if(std::isfinite(x) && x>0.0) ++p.found;
+            p.chi2 = chi_square_v32f(targets, p.model, cov, corr, cfg.base.chi_square_mode, cfg.base.failure_penalty);
+            if(p.found != static_cast<int>(targets.size())) p.chi2 = cfg.base.failure_penalty;
+            return p;
+        };
+        const std::array<std::string,4> names{"K3iso0","K3iso1","K3B","K3E"};
+        auto values = [](const K3dfParameters& p) {
+            return std::array<double,4>{p.K3iso0,p.K3iso1,p.K3B,p.K3E};
+        };
+        std::ofstream out(outpath);
+        if(!out) throw std::runtime_error("cannot open sensitivity output " + outpath.string());
+        out << std::setprecision(17)
+            << "base_point,parameter,base_value,step,minus_value,plus_value,chi2_minus,chi2_base,chi2_plus,delta_chi2_minus,delta_chi2_plus,"
+               "found_minus,found_base,found_plus,rows_minus,rows_base,rows_plus,expansions_minus,expansions_base,expansions_plus,"
+               "full_scan_minus,full_scan_base,full_scan_plus,fallback_minus,fallback_base,fallback_plus,"
+               "model0_minus,model1_minus,model2_minus,model3_minus,model0_base,model1_base,model2_base,model3_base,"
+               "model0_plus,model1_plus,model2_plus,model3_plus,dE0_dparam,dE1_dparam,dE2_dparam,dE3_dparam,max_abs_dE_dparam\n";
+        for(const auto& item : std::array<std::pair<std::string,K3dfParameters>,2>{{{"starting",start},{"best_logged",best}}}) {
+            const auto base_values = values(item.second);
+            const Point central = evaluate(item.second);
+            for(int j=0;j<4;++j) {
+                auto minus_values=base_values, plus_values=base_values;
+                minus_values[std::size_t(j)] -= steps[std::size_t(j)];
+                plus_values[std::size_t(j)] += steps[std::size_t(j)];
+                const K3dfParameters minus{minus_values[0],minus_values[1],minus_values[2],minus_values[3]};
+                const K3dfParameters plus{plus_values[0],plus_values[1],plus_values[2],plus_values[3]};
+                const Point pm = evaluate(minus), pp = evaluate(plus);
+                std::array<double,4> deriv{};
+                double max_abs=0.0;
+                for(int k=0;k<4;++k) {
+                    deriv[std::size_t(k)] = (pp.model[std::size_t(k)]-pm.model[std::size_t(k)])/(2.0*steps[std::size_t(j)]);
+                    max_abs=std::max(max_abs,std::abs(deriv[std::size_t(k)]));
+                }
+                out << item.first << "," << names[std::size_t(j)] << "," << base_values[std::size_t(j)] << "," << steps[std::size_t(j)] << ","
+                    << minus_values[std::size_t(j)] << "," << plus_values[std::size_t(j)] << ","
+                    << pm.chi2 << "," << central.chi2 << "," << pp.chi2 << "," << (pm.chi2-central.chi2) << "," << (pp.chi2-central.chi2) << ","
+                    << pm.found << "," << central.found << "," << pp.found << ","
+                    << pm.timing.window_rows_evaluated << "," << central.timing.window_rows_evaluated << "," << pp.timing.window_rows_evaluated << ","
+                    << pm.timing.window_expansions << "," << central.timing.window_expansions << "," << pp.timing.window_expansions << ","
+                    << (pm.timing.full_scan_occurred?1:0) << "," << (central.timing.full_scan_occurred?1:0) << "," << (pp.timing.full_scan_occurred?1:0) << ","
+                    << (pm.timing.fallback_occurred?1:0) << "," << (central.timing.fallback_occurred?1:0) << "," << (pp.timing.fallback_occurred?1:0);
+                for(double x: pm.model) out << "," << x;
+                for(double x: central.model) out << "," << x;
+                for(double x: pp.model) out << "," << x;
+                for(double x: deriv) out << "," << x;
+                out << "," << max_abs << "\n";
+            }
+        }
+        std::cout << "[sensitivity] wrote " << outpath << " rows=8 targets=" << targets.size() << "\n";
+        return 0;
+    }
+
     double cache_load_sec() const { return setup_cache_load_sec; }
     double precompute_sec() const { return setup_precompute_sec; }
 private:
@@ -1304,7 +1380,7 @@ static void write_outputs_multi(const MultiConfig& cfg,
                                 const MatrixD& pcorr) {
     fs::create_directories(cfg.base.output_dir);
     const std::string pref = (fs::path(cfg.base.output_dir)/cfg.base.output_tag).string();
-    int nd=(int)targets.size(), np=4, ndof=nd-np;
+    int nd=(int)targets.size(), np=int(std::count(cfg.float_params.begin(),cfg.float_params.end(),true)), ndof=nd-np;
     std::ofstream sum(pref+"_fit_summary_allL.dat");
     sum << std::setprecision(17)
         << "valid " << valid << "\n"
@@ -1716,6 +1792,20 @@ int main(int argc, char** argv) {
             return 0;
         }
 
+        if(run_mode=="sensitivity") {
+            const auto kv = v32w::read_kv(cfgpath);
+            auto gd = [&](const std::string& key, double fallback) { return v32w::gd(kv,key,fallback); };
+            const K3dfParameters start{cfg.base.guess.K3iso0,cfg.base.guess.K3iso1,cfg.base.guess.K3B,cfg.base.guess.K3E};
+            const K3dfParameters best{
+                gd("sensitivity_best_K3iso0",start.K3iso0), gd("sensitivity_best_K3iso1",start.K3iso1),
+                gd("sensitivity_best_K3B",start.K3B), gd("sensitivity_best_K3E",start.K3E)};
+            const std::array<double,4> steps{
+                gd("sensitivity_step_K3iso0",cfg.base.step.K3iso0), gd("sensitivity_step_K3iso1",cfg.base.step.K3iso1),
+                gd("sensitivity_step_K3B",cfg.base.step.K3B), gd("sensitivity_step_K3E",cfg.base.step.K3E)};
+            const fs::path outpath = v32w::gs(kv,"sensitivity_output_csv",(fs::path(cfg.base.output_dir)/"parameter_sensitivity.csv").string());
+            return fcn.write_parameter_sensitivity(start,best,steps,outpath);
+        }
+
         if(run_mode=="fcn-once" || run_mode=="fcn") {
             std::vector<double> x = {cfg.base.guess.K3iso0, cfg.base.guess.K3iso1, cfg.base.guess.K3B, cfg.base.guess.K3E};
             const auto t0 = std::chrono::steady_clock::now();
@@ -1750,10 +1840,10 @@ int main(int argc, char** argv) {
 
         #if V32F_HAS_MINUIT2
         ROOT::Minuit2::MnUserParameters u;
-        u.Add("K3iso0",cfg.base.guess.K3iso0,cfg.base.step.K3iso0);
-        u.Add("K3iso1",cfg.base.guess.K3iso1,cfg.base.step.K3iso1);
-        u.Add("K3B",cfg.base.guess.K3B,cfg.base.step.K3B);
-        u.Add("K3E",cfg.base.guess.K3E,cfg.base.step.K3E);
+        if(cfg.float_params[0]) u.Add("K3iso0",cfg.base.guess.K3iso0,cfg.base.step.K3iso0);
+        if(cfg.float_params[1]) u.Add("K3iso1",cfg.base.guess.K3iso1,cfg.base.step.K3iso1);
+        if(cfg.float_params[2]) u.Add("K3B",cfg.base.guess.K3B,cfg.base.step.K3B);
+        if(cfg.float_params[3]) u.Add("K3E",cfg.base.guess.K3E,cfg.base.step.K3E);
         if(cfg.base.use_parameter_limits) for(unsigned int i=0;i<4;++i) u.SetLimits(i,cfg.base.param_lower,cfg.base.param_upper);
         std::cout << "[v32x] running Minuit Migrad with multi-L fixed GPU coarse cache and CPU refined points\n";
         ROOT::Minuit2::MnMigrad migrad(fcn,u);
@@ -1761,8 +1851,16 @@ int main(int argc, char** argv) {
         ROOT::Minuit2::FunctionMinimum min = (max_fcn>0) ? migrad(max_fcn) : migrad();
         if(min.IsValid()) { ROOT::Minuit2::MnHesse h; h(fcn,min); }
         auto st = min.UserState();
-        K3dfParameters best{st.Value("K3iso0"),st.Value("K3iso1"),st.Value("K3B"),st.Value("K3E")};
-        K3dfParameters err{st.Error("K3iso0"),st.Error("K3iso1"),st.Error("K3B"),st.Error("K3E")};
+        auto state_value = [&](const char* name, double fallback, bool floating) { return floating ? st.Value(name) : fallback; };
+        auto state_error = [&](const char* name, bool floating) { return floating ? st.Error(name) : 0.0; };
+        K3dfParameters best{
+            state_value("K3iso0",cfg.base.guess.K3iso0,cfg.float_params[0]),
+            state_value("K3iso1",cfg.base.guess.K3iso1,cfg.float_params[1]),
+            state_value("K3B",cfg.base.guess.K3B,cfg.float_params[2]),
+            state_value("K3E",cfg.base.guess.K3E,cfg.float_params[3])};
+        K3dfParameters err{
+            state_error("K3iso0",cfg.float_params[0]), state_error("K3iso1",cfg.float_params[1]),
+            state_error("K3B",cfg.float_params[2]), state_error("K3E",cfg.float_params[3])};
         std::vector<v32x_multiL::CandidateWithBlock> final_cands;
         auto model = fcn.model_for(best,&final_cands);
         int model_found=0; for(double m:model) if(std::isfinite(m)&&m>0.0) ++model_found;
