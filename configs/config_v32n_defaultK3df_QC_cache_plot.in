@@ -1,0 +1,66 @@
+# v32n: fixed/default K3df projected-QC diagnostic scan using cached F3^{-1}_full and Vsel.
+# No fitting. No F3^{-1} rebuild. This package is for diagnosing why classifier misses QC candidates.
+
+list_of_mom = 000_A1m 100_A2 110_A2 111_A2 200_A2
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+
+Lval = 20
+xival = 3.444
+scan_E0 = 0.261
+scan_E1 = 0.36
+coarseN = 10000
+refineN = 0
+iterative_refine_enable = 0
+omp_threads = 18
+debug = n
+
+atmK = 0.09698
+atmpi = 0.06906
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20.0
+tolerance = 1.0e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1.0e-12
+proj_tol = 1.0e-10
+
+# Fixed lattice-mass two-body s+p scattering parameters.
+scatter1_00 = 4.04
+scatter1_10 = -43.2
+scatter2_00 = 4.12
+
+# Lattice levels to overlay on the plot.
+use_lattice_covariance = 1
+ensemble = szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265
+energy_cutoff = 0.335
+max_state = 8
+masses_path =
+print_found_files = 1
+chi_square_mode = raw_cov_inv
+
+# Default/fixed K3df values used to build QC = F3^{-1} + K3df.
+K3iso0 = 0.1
+K3iso1 = 0.1
+K3B = 0.1
+K3E = 0.1
+
+# Old classifier: sign flip in signed slogdet(det(projected QC)) and old peak support tests.
+use_digonto_classifier_v1 = 1
+classifier_mode = old_peak_on_projected_QC_slogdet
+classifier_peak_ratio_min = 50
+classifier_shoulder_gap = 2
+zero_energy_mode = linear
+
+# Cache-only behavior. Put your existing cache at cache/cache.bin or keep the v32j name.
+write_cache_grid = 0
+save_binary_f3inv_cache = 1
+load_binary_f3inv_cache = 1
+require_existing_binary_f3inv_cache = 1
+binary_f3inv_cache_file = cache/cache.bin
+
+output_dir = output_qc_defaultK3df
+output_tag = debug_v32n_defaultK3df_QC_cache_plot

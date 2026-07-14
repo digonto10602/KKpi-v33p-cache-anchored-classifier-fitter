@@ -1,0 +1,20 @@
+# v33f F3inv_isotropic visual-test config
+# Set V33E_CACHE_ROOT in the wrapper or edit this path to the directory that contains:
+#   v33e_coarse20000_sep_f2k2_L20_000_A1m/
+#   v33e_coarse20000_sep_f2k2_L20_100_A2/
+#   ...
+#   v33e_coarse20000_sep_f2k2_L24_110_111_200_A2/
+v33e_cache_root = /media/digonto/Data/F3inv_cache
+output_dir = output_v33f/F3inv_iso_visual_test
+
+Lbyas_values = 20 24
+list_of_mom = 000_A1m 100_A2 110_A2 111_A2 200_A2
+xival = 3.444
+coarseN = 20000
+omp_threads = 18
+
+# digonto_classifier_v3 used on the scalar F3inv_iso sign flips.
+v3_monotone_tol = 0.02
+v3_min_drop_fraction = 0.15
+v3_min_pole_rise_fraction = 0.15
+v3_require_both_shoulders = 0

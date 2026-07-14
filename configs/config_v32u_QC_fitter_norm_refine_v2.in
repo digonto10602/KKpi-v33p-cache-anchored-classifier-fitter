@@ -1,0 +1,79 @@
+# v32u QC fitter using normalized projected QC determinant + digonto_classifier_v2_one_shoulder
+# QC_proj(E) = Vsel^dagger [F3inv_full(E) + Kdf3_full(E;K3iso0,K3iso1,K3B,K3E)] Vsel
+# Matrix scaled before determinant: QC_scaled = QC_proj / (Lbyas*xi)^const_norm_power
+
+# --- lattice / physics inputs, kept consistent across cache, lattice and fit ---
+Lval = 20
+xival = 3.444
+atmK = 0.09698
+atmpi = 0.06906
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20
+tolerance = 1e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1e-12
+proj_tol = 1e-10
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+scatter1_00 = 4.04
+scatter1_10 = -43.2
+scatter2_00 = 4.12
+
+# --- scan and irreps ---
+scan_E0 = 0.261
+scan_E1 = 0.36
+coarseN = 10000
+refineN = 0
+omp_threads = 18
+list_of_mom = 000_A1m 100_A2 110_A2 111_A2 200_A2
+
+# --- lattice mass file input ---
+use_lattice_covariance = 1
+ensemble = szscl21_20_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265
+masses_path = /home/digonto/Codes/Practical_Lattice_v2/3body_quantization/lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses
+energy_cutoff = 0.335
+max_state = 8
+lattice_energy_type = En_lab
+print_found_files = 1
+chi_square_mode = raw_cov_inv
+failure_penalty = 1e100
+
+# --- Minuit Kdf3 initial parameters and steps ---
+K3iso0_guess = 0.1
+K3iso1_guess = 0.1
+K3B_guess = 0.1
+K3E_guess = 0.1
+K3iso0_step = 0.1
+K3iso1_step = 0.1
+K3B_step = 0.1
+K3E_step = 0.1
+use_parameter_limits = 0
+param_lower = -1e8
+param_upper = 1e8
+print_each_fcn_eval = 1
+print_every_fcn_eval = 1
+
+# --- F3inv/Vsel cache behavior ---
+# If cache/cache.bin exists, load it. If not and require_existing_binary_f3inv_cache=0, build coarse cache in OpenMP.
+load_binary_f3inv_cache = 1
+save_binary_f3inv_cache = 1
+require_existing_binary_f3inv_cache = 0
+binary_f3inv_cache_file = cache/cache.bin
+write_cache_grid = 0
+
+# --- digonto_classifier_v2_one_shoulder for QC zeros ---
+# For each sign flip, build 10 new Ecm points inside the bracket, recursively split if multiple flips.
+# New F3inv/Vsel entries are added to the in-memory cache and saved after the fit.
+const_norm_power = 6
+v2_refine_points = 10
+v2_max_split_depth = 8
+v2_zero_ratio = 0.80
+v2_refined_binary_cache_file = cache/v32u_refined_F3inv_Vsel_cache.bin
+
+# --- outputs ---
+output_dir = output_v32u_QC_fitter_norm_refine_v2
+output_tag = debug_v32u_QC_fitter_norm_refine_v2

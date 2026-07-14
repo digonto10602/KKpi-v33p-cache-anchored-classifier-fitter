@@ -1,0 +1,7 @@
+Ecm_cutoff,fit_wall_time_sec,spectrum_check_wall_time_sec,plot_wall_time_sec,total_cutoff_bundle_wall_time_sec,timing_source
+0.315,247.270000,8.110000,1283.812258,1539.192258,reconstructed_from_existing_logs_and_artifact_mtimes
+0.325,261.580000,7.410000,1295.022366,1564.012366,reconstructed_from_existing_logs_and_artifact_mtimes
+0.335,259.980000,7.530000,1295.141940,1562.651940,reconstructed_from_existing_logs_and_artifact_mtimes
+0.345,394.760000,7.670000,1311.348385,1713.778385,reconstructed_from_existing_logs_and_artifact_mtimes
+0.355,287.050000,8.350000,1314.301304,1609.701304,reconstructed_from_existing_logs_and_artifact_mtimes
+0.365,262.370000,8.850000,1317.532350,1588.752350,reconstructed_from_existing_logs_and_artifact_mtimes

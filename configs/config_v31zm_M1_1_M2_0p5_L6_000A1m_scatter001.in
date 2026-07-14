@@ -1,0 +1,76 @@
+# v31zl projected F3^{-1}+F3inv_iso diagnostic, run A
+# Compare 000_A1m for toy masses and two scattering lengths.
+# M1 = 1.0, M2 = 0.5
+# Ecm_min = 2*M1 + M2 = 2.5
+# Ecm_max = 4*M1 = 4.0
+# Ecm_points = 10501 coarse + local 1000-point refined mesh per sign-flip bracket
+# L = 6, xi = 1.0
+# waves_vec_1 = {0}, waves_vec_2 = {0}
+# scatter1_00 = 0.01, scatter2_00 = 0.01; all other scatter entries are zeroed by code.
+
+list_of_mom = 000_A1m
+waves_vec_1 = 0
+waves_vec_2 = 0
+
+Lval = 6
+xival = 1.0
+scan_E0 = 2.5
+scan_E1 = 4.0
+coarseN = 10501
+omp_threads = 18
+debug = n
+
+# physics: two particles with mass M1=atmK and one with mass M2=atmpi
+atmK = 1.0
+atmpi = 0.5
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20.0
+tolerance = 1.0e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1.0e-12
+proj_tol = 1.0e-10
+Q0norm = 1
+sort_orbit_flag = 0
+
+# Spectator-index scattering convention:
+# scatter_params_i_ell_paramind
+#   i        = spectator species index
+#   ell      = 0,1,2,...
+#   paramind = 0 scattering length, 1 effective range, 2 next higher-order term
+# scatter_params_1 -> spectator M1, interacting pair (M1,M2)
+# scatter_params_2 -> spectator M2, interacting pair (M1,M1)
+scatter1_00 = 0.01
+scatter2_00 = 0.01
+
+# non-interacting shell scan
+nonint_nmax = 4
+nonint_nsq_max = 16
+energy_group_tol = 1.0e-10
+
+# blind zero classifier thresholds; diagnostic only here
+zero_minabs_eig_max = 1.0e-5
+zero_min_sv_max = 1.0e-5
+candidate_merge_tol = 2.0e-4
+oracle_match_tol = 2.5e-4
+refine_iter = 20
+smoke_test = 0
+smoke_only = 0
+audit_eigenbranch_detail = 0
+refine_zero_roots = 1
+
+# v31zm sorted local refinement around every coarse sign-flip bracket
+signflip_refine_enable = 1
+signflip_refine_points = 1000
+
+# output
+output_dir = output_scatter001
+output_tag = debug_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001
+
+# plotting
+make_plots = 1
+plot_show = 0
+plot_nscale = 300

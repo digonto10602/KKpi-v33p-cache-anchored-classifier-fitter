@@ -1,0 +1,81 @@
+# v32f K3df fitter: cached full F3^{-1}; QC_full=F3^{-1}_full+K3df_full; QC_proj=Vdag QC_full V, C++ digonto_classifier_v1, lattice masses/data
+# All tweakable physics/scanning/fitting parameters live here.
+
+# default irrep list requested
+list_of_mom = 000_A1m 100_A2 110_A2 111_A2 200_A2
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+
+# Lattice anisotropic setup. Lval is L/a_s. Internally L = Lval*xi.
+Lval = 20
+xival = 3.444
+scan_E0 = 0.26
+scan_E1 = 0.36
+coarseN = 1000
+refineN = 20
+iterative_refine_enable = 1
+iterative_refine_max_rounds = 50
+iterative_refine_tol = 1.0e-6
+omp_threads = 18
+debug = n
+
+# masses and two-body input
+atmK = 0.09698
+atmpi = 0.06906
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20.0
+tolerance = 1.0e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1.0e-12
+proj_tol = 1.0e-10
+
+# fixed lattice-mass s+p scattering parameters
+# scatter_params_1: spectator K, pair K-pi.  scatter_params_2: spectator pi, pair K-K.
+# key format scatter{1|2}_{ell}{param_index}; param_index 0=scattering length, 1=effective range, 2=shape.
+scatter1_00 = 4.04
+scatter1_10 = -43.2
+scatter2_00 = 4.12
+
+# Lattice spectrum fit target selection. Cache is built on [0.26,0.36], but only levels <= 0.335 enter chi-square.
+use_lattice_covariance = 1
+ensemble = szscl21_24_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265
+energy_cutoff = 0.335
+max_state = 8
+masses_path =
+print_found_files = 0
+chi_square_mode = raw_cov_inv
+failure_penalty = 1.0e100
+
+# C++ digonto_classifier_v1 for fitter/spectrum.
+use_digonto_classifier_v1 = 1
+classifier_peak_ratio_min = 50
+classifier_shoulder_gap = 2
+zero_energy_mode = linear
+
+# K3df fit parameters and Minuit controls
+K3iso0_guess = 0.0
+K3iso1_guess = 0.0
+K3B_guess = 0.0
+K3E_guess = 0.0
+K3iso0_step = 10.0
+K3iso1_step = 10.0
+K3B_step = 10.0
+K3E_step = 10.0
+use_parameter_limits = 0
+param_lower = -1.0e8
+param_upper = 1.0e8
+print_each_fcn_eval = 1
+print_every_fcn_eval = 1
+
+# Cache/output behavior. Binary cache can be reused by fitter and fixed-K3df spectrum generator.
+write_cache_grid = 1
+write_bestfit_qc_grid = 1
+save_binary_f3inv_cache = 1
+load_binary_f3inv_cache = 0
+binary_f3inv_cache_file = cache/v32f_lattice_L20xi3p444_fullF3inv_cache.bin
+output_dir = output_fit
+output_tag = debug_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier

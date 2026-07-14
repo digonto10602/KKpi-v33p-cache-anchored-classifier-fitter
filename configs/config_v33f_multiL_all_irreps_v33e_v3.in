@@ -1,0 +1,81 @@
+# v33f all-default-irrep preproduction check and benchmark config.
+Lbyas_values = 20 24
+lattice_jackknife_dir = /home/digonto/Codes/KKpi_I2/spectrum/Ecm_data/data
+lattice_jack_energy_type = En_lab
+jack_skip_header_lines = 1
+jack_energy_column = 2
+Ecm_cutoff = 0.335
+energy_cutoff = 0.335
+max_total_lattice_levels = 0
+max_lattice_levels_per_block = 0
+
+irreps_L20 = 000_A1m 100_A2 110_A2 111_A2 200_A2
+irreps_L24 = 000_A1m 100_A2 110_A2 111_A2 200_A2
+list_of_mom = 000_A1m 100_A2 110_A2 111_A2 200_A2
+
+xival = 3.444
+atmK = 0.09698
+atmpi = 0.06906
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20
+tolerance = 1e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1e-12
+proj_tol = 1e-10
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+scatter1_00 = 4.04
+scatter1_10 = -43.2
+scatter2_00 = 4.12
+
+scan_E0 = 0.26301
+scan_E1 = 0.36
+coarseN = 20000
+gpu_cachegen_Ecm_min = 0.26301
+gpu_cachegen_Ecm_max = 0.36
+gpu_cachegen_coarseN = 20000
+refineN = 0
+omp_threads = 18
+debug = n
+
+auto_build_missing_coarse = 0
+coarse_cache_root = /media/digonto/Data/F3inv_cache
+use_gpu_cache_meta_validation = 1
+
+refined_cache_dir = output_v33f/refined_disabled
+refined_cache_prefix = v33f_v3
+save_refined_cache = 0
+
+const_norm_power = 6
+v2_refine_points = 0
+v2_max_split_depth = 8
+v2_zero_ratio = 0.80
+classifier_mode = digonto_v3_window
+v3_monotone_tol = 0.02
+v3_min_drop_fraction = 0.15
+v3_min_pole_rise_fraction = 0.15
+v3_require_both_shoulders = 0
+
+K3iso0_guess = 34470.228772793678
+K3iso1_guess = -1035173.9140440958
+K3B_guess    = 253921.14757953485
+K3E_guess    = -961680.91711685632
+K3iso0_step = 1000.0
+K3iso1_step = 10000.0
+K3B_step    = 1000.0
+K3E_step    = 10000.0
+use_parameter_limits = 0
+max_fcn = 1
+
+use_lattice_covariance = 1
+chi_square_mode = raw_cov_inv
+failure_penalty = 1e100
+print_each_fcn_eval = 1
+print_every_fcn_eval = 1
+
+output_dir = output_v33f/fit_all_irreps_cut0335
+output_tag = debug_v33f_all_irreps_cut0335

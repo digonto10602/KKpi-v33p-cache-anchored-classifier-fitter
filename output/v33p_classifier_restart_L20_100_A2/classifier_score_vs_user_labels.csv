@@ -1,0 +1,8 @@
+method,TP,FP,FN,TN,runtime_seconds,score,acceptable,status
+algo_v6_branch_count_final_select,0,0,0,8,0.002505279,0.0,YES,PASS
+algo_v7_eigenbranch,0,0,0,8,0.002632253,0.0,YES,PASS
+algo_v7_hybrid_det_eigenbranch,0,0,0,8,0.002609395,0.0,YES,PASS
+digonto_v3_window,0,0,0,8,0.000120959,0.0,YES,PASS
+digonto_v4_window,0,0,0,8,9.2411e-05,0.0,YES,PASS
+raw_sign_clustered,0,8,0,0,2.6058e-05,-8.0,NO,PASS
+raw_sign_only,0,8,0,0,4.29000002e-05,-8.0,NO,PASS

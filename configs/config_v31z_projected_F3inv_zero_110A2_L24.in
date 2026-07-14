@@ -1,0 +1,60 @@
+# v31z projected F3^{-1} zero-finder using v31y/v31x projection/eigenbranch diagnostics
+# Goal: predict det(projected F3^{-1}) zeros blindly, then compare to non-interacting energies.
+
+list_of_mom = 110_A2
+waves_vec_1 = 0,1
+waves_vec_2 = 0
+
+# Requested default: L=24 instead of L=20
+Lval = 24
+xival = 3.444
+scan_E0 = 0.240
+scan_E1 = 0.340
+coarseN = 1801
+omp_threads = 18
+debug = n
+
+# physics
+atmpi = 0.06906
+atmK = 0.09698
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20.0
+tolerance = 1.0e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1.0e-12
+proj_tol = 1.0e-10
+Q0norm = 1
+sort_orbit_flag = 0
+
+# non-interacting shell scan
+nonint_nmax = 7
+nonint_nsq_max = 16
+energy_group_tol = 1.0e-10
+
+# blind zero classifier thresholds
+zero_minabs_eig_max = 1.0e-5
+zero_min_sv_max = 1.0e-5
+candidate_merge_tol = 2.0e-4
+oracle_match_tol = 2.5e-4
+refine_iter = 28
+smoke_test = 0
+smoke_only = 0
+# speed controls: audit_eigenbranch_detail=0 avoids expensive endpoint recomputes in classification
+audit_eigenbranch_detail = 0
+refine_zero_roots = 1
+
+# output
+output_dir = output
+output_tag = debug_v31zg_projF3inv_M1M2_L4
+
+# plotting
+make_plots = 1
+plot_show = 0
+
+# v31zd five-function plot controls
+plot_nscale = 10
+plot_show = 1

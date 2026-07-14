@@ -1,0 +1,71 @@
+# v32s projected-F3inv determinant sign-flip refinement/classification test
+# Uses cached F3inv_full and Vsel, projects to definite irreps, computes det(projected F3inv),
+# finds sign flips, then applies digonto_classifier_v2 on local cached refinement meshes.
+
+# --- lattice / physics inputs, kept consistent across F3inv, lattice, nonint and plots ---
+Lval = 20
+xival = 3.444
+atmK = 0.09698
+atmpi = 0.06906
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20
+tolerance = 1e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1e-12
+proj_tol = 1e-10
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+scatter1_00 = 4.04
+scatter1_10 = -43.2
+scatter2_00 = 4.12
+
+# --- scan and irreps ---
+scan_E0 = 0.261
+scan_E1 = 0.36
+coarseN = 10000
+refineN = 0
+omp_threads = 18
+list_of_mom = 000_A1m 100_A2 110_A2 111_A2 200_A2
+
+# --- lattice mass file input ---
+use_lattice_covariance = 1
+ensemble = szscl21_20_128_b1p50_t_x4p300_um0p0840_sm0p0743_n1p265
+masses_path = /home/digonto/Codes/Practical_Lattice_v2/3body_quantization/lattice_data/KKpi_interacting_spectrum/twoptvar_analysis/masses
+energy_cutoff = 0.335
+max_state = 8
+lattice_energy_type = En_lab
+print_found_files = 1
+
+# --- cache-only F3inv/Vsel behavior ---
+load_binary_f3inv_cache = 1
+save_binary_f3inv_cache = 0
+require_existing_binary_f3inv_cache = 1
+binary_f3inv_cache_file = cache/cache.bin
+write_cache_grid = 0
+
+# --- digonto_classifier_v2 controls ---
+v2_refine_points = 10
+v2_zero_ratio = 0.80
+v2_pole_ratio = 1.20
+
+# --- noninteracting helper ---
+nonint_nmax = 5
+nonint_double_cover = y
+
+# --- outputs ---
+output_dir = output_v32s_projF3inv_norm_refine_v2
+output_tag = debug_v32s_projF3inv_norm_refine_v2
+
+# --- v32s true-refined digonto_classifier_v2 controls ---
+# Scale projected F3inv before taking determinant: Mscaled = projF3inv / (Lbyas*xi)^const_norm_power
+const_norm_power = 6
+v2_refine_points = 10
+v2_max_split_depth = 8
+v2_zero_ratio = 0.80
+v2_pole_threshold = 0.75
+v2_save_refined_binary_cache = 1
+v2_refined_binary_cache_file = cache/v32s_refined_F3inv_Vsel_cache.bin

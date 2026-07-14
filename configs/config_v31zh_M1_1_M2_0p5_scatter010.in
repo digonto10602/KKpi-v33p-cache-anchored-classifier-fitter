@@ -1,0 +1,71 @@
+# v31zh projected F3^{-1} five-plot diagnostic toy setup, run B
+# M1 = 1.0, M2 = 0.5
+# Ecm_min = 2*M1 + M2 = 2.5
+# Ecm_max = 4*M1 = 4.0
+# Ecm_points = 1501
+# Lbyas = 4, xi = 1.0, L = 4
+# waves_vec_1 = {0}, waves_vec_2 = {0}
+# scatter1_00 = 0.01, scatter2_00 = 0.01; all other scatter entries default to zero
+
+list_of_mom = 110_A2
+waves_vec_1 = 0
+waves_vec_2 = 0
+
+Lval = 4
+xival = 1.0
+scan_E0 = 2.5
+scan_E1 = 4.0
+coarseN = 1501
+omp_threads = 18
+debug = n
+
+# physics: two particles with mass M1=atmK and one with mass M2=atmpi
+atmK = 1.0
+atmpi = 0.5
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20.0
+tolerance = 1.0e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1.0e-12
+proj_tol = 1.0e-10
+Q0norm = 1
+sort_orbit_flag = 0
+
+# spectator-index scattering parameters:
+# scatter_params_i_ell_paramind
+# i        = spectator species index
+# ell      = two-body partial wave
+# paramind = 0 scattering length, 1 effective range, 2 next shape/P term
+# scatter_params_1 -> spectator M1, interacting pair (M1,M2)
+# scatter_params_2 -> spectator M2, interacting pair (M1,M1)
+scatter1_00 = 0.1
+scatter2_00 = 0.1
+
+# non-interacting shell scan
+nonint_nmax = 8
+nonint_nsq_max = 24
+energy_group_tol = 1.0e-10
+
+# classifier/debug fields, retained for compatibility
+zero_minabs_eig_max = 1.0e-5
+zero_min_sv_max = 1.0e-5
+candidate_merge_tol = 2.0e-4
+oracle_match_tol = 2.5e-4
+refine_iter = 20
+smoke_test = 0
+smoke_only = 0
+audit_eigenbranch_detail = 0
+refine_zero_roots = 1
+
+# output
+output_dir = output_scatter010
+output_tag = debug_v31zh_M1_1_M2_0p5_scatter010
+
+# plotting
+make_plots = 1
+plot_show = 0
+plot_nscale = 300

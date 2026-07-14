@@ -1,0 +1,85 @@
+# v32b projected F3^{-1}+F3inv_iso diagnostic with digonto_classifier_v1
+# Compare 110_A2, waves_vec_1={0,1}, scatter1_10=0.10 vs scatter1_10=1.00.
+# Toy setup: M1=1.0, M2=0.5, L=4, xi=1.0, Ecm in [2.5,4.0].
+# Scattering convention: scatter_params_i_ell_paramind.
+# Active s-wave scattering-length-like coefficients are 0.01; only p-wave scatter1_10 changes.
+
+list_of_mom = 110_A2
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+
+Lval = 4
+xival = 1.0
+scan_E0 = 2.5
+scan_E1 = 4.0
+coarseN = 200
+omp_threads = 18
+debug = n
+
+# physics: two particles with mass M1=atmK and one with mass M2=atmpi
+atmK = 1.0
+atmpi = 0.5
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20.0
+tolerance = 1.0e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1.0e-12
+proj_tol = 1.0e-10
+Q0norm = 1
+sort_orbit_flag = 0
+
+# spectator-index scattering parameters:
+# scatter_params_1 -> spectator M1, interacting pair (M1,M2)
+# scatter_params_2 -> spectator M2, interacting pair (M1,M1)
+# paramind=0 is scattering-length-like; paramind=1,2 are kept zero.
+
+# non-interacting shell scan
+nonint_nmax = 8
+nonint_nsq_max = 24
+energy_group_tol = 1.0e-10
+
+# diagnostic thresholds retained for C++ audit compatibility
+zero_minabs_eig_max = 1.0e-5
+zero_min_sv_max = 1.0e-5
+candidate_merge_tol = 2.0e-4
+oracle_match_tol = 2.5e-4
+refine_iter = 20
+smoke_test = 0
+smoke_only = 0
+audit_eigenbranch_detail = 0
+refine_zero_roots = 1
+
+# v32 iterative refinement around det(projected F3inv) sign-flip brackets
+signflip_refine_enable = 1
+signflip_refine_points = 10
+iterative_signflip_refine_enable = 1
+iterative_refineN = 10
+iterative_refine_max_rounds = 40
+iterative_refine_tol = 1.0e-6
+
+# plotting
+make_plots = 1
+plot_show = 0
+plot_nscale = 300
+
+# digonto_classifier_v1 plot classifier defaults
+# Rule: any det(proj F3inv) sign flip + Gaussian-like peak in smallest eigenvalue + Gaussian-like peak in minSV
+digonto_classifier_v1_orientation = any
+digonto_classifier_v1_peak_ratio = 50
+digonto_classifier_v1_outer_points = 80
+digonto_classifier_v1_core_points = 2
+
+# active common scattering parameters
+scatter1_00 = 0.01
+scatter2_00 = 0.01
+
+# Run A: s+p wave in channel 1, p-wave scattering length 0.10
+scatter1_10 = 0.10
+
+# output
+output_dir = output_p010
+output_tag = debug_v32b_110A2_M1_1_M2_0p5_waves01_scatter1p010
