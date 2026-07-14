@@ -1,0 +1,17 @@
+{
+  "root_search_mode": "accepted_windows",
+  "det_backend": "auto",
+  "fallback_full_scan": false,
+  "window_half_rows": 50,
+  "max_window_half_rows": 250,
+  "one_fcn_only": true,
+  "Ecm_cutoff": 0.335,
+  "Lbyas_irreps": ["20/000_A1m", "24/000_A1m"],
+  "config_used_by_executable": "fitter_000A1m_hot_windows.in",
+  "K3df": {
+    "K3iso0": 73735.840894011912,
+    "K3iso1": -972421.14060757787,
+    "K3B": 347174.05548116949,
+    "K3E": -1226756.7068845264
+  }
+}
