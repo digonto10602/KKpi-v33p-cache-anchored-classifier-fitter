@@ -145,6 +145,7 @@ struct MultiConfig {
     // requested first-stage 000_A1m five-level lattice-spectrum test.
     int max_total_lattice_levels = 0;
     int max_lattice_levels_per_block = 0;
+    int max_fcn_evals = 0;
     std::string root_search_mode = "full_scan";
     std::string det_backend = "cpu_openmp";
     bool fallback_full_scan = true;
@@ -216,6 +217,7 @@ static MultiConfig multiconfig_from_config(const std::string& cfgpath) {
     c.benchmark_warmup = v32w::gi(kv,"benchmark_warmup",2);
     c.max_total_lattice_levels = v32w::gi(kv,"max_total_lattice_levels",0);
     c.max_lattice_levels_per_block = v32w::gi(kv,"max_lattice_levels_per_block",0);
+    c.max_fcn_evals = v32w::gi(kv,"max_fcn_evals",0);
     c.root_search_mode = v32w::gs(kv,"root_search_mode","full_scan");
     c.det_backend = v32w::gs(kv,"det_backend","cpu_openmp");
     c.fallback_full_scan = v32w::gi(kv,"fallback_full_scan",1)!=0;
@@ -1161,13 +1163,18 @@ public:
             }
             std::cout << "[hot-windows] loaded total_windows=" << accepted_windows.size()
                       << " det_backend=" << (cfg.det_backend=="auto"?"cpu_openmp":cfg.det_backend)
-                      << " fallback_full_scan=0\n";
+                      << " fallback_full_scan=0 max_fcn_evals=" << cfg.max_fcn_evals << "\n";
         }
     }
     double Up() const override { return 1.0; }
     double operator()(const std::vector<double>& x) const override {
         if(x.size()<4) return cfg.base.failure_penalty;
+        const size_t id = ++evals;
+        if(cfg.max_fcn_evals > 0 && id > static_cast<size_t>(cfg.max_fcn_evals)) {
+            throw std::runtime_error("short-minimization FCN-call limit exceeded: " + std::to_string(cfg.max_fcn_evals));
+        }
         K3dfParameters kp{x[0],x[1],x[2],x[3]};
+        const auto fcn_t0 = std::chrono::steady_clock::now();
         try {
             std::vector<CandidateWithBlock> cands;
             BenchmarkTiming hot_timing;
@@ -1175,13 +1182,15 @@ public:
             int found=0; for(double m:model) if(std::isfinite(m)&&m>0.0) ++found;
             double chi = chi_square_v32f(targets,model,cov,corr,cfg.base.chi_square_mode,cfg.base.failure_penalty);
             if(found<(int)targets.size()) chi = cfg.base.failure_penalty;
-            size_t id = ++evals;
+            const auto fcn_t1 = std::chrono::steady_clock::now();
+            const double fcn_sec = std::chrono::duration<double>(fcn_t1 - fcn_t0).count();
             if(cfg.root_search_mode=="accepted_windows") {
                 std::cout << "[hot-window-fcn] eval=" << id
                           << " backend=" << (cfg.det_backend=="auto"?"cpu_openmp":cfg.det_backend)
                           << " rows_evaluated=" << hot_timing.window_rows_evaluated
                           << " expansions=" << hot_timing.window_expansions
                           << " fallback_full_scan=0 full_scan=0"
+                          << " fcn_sec=" << fcn_sec
                           << " model_found=" << found << "/" << targets.size() << "\n";
             }
             if(cfg.base.print_each_fcn_eval && cfg.base.print_every_fcn_eval>0 && id%(size_t)cfg.base.print_every_fcn_eval==0) {

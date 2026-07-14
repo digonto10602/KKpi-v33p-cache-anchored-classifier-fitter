@@ -1,0 +1,20 @@
+{
+  "root_search_mode": "accepted_windows",
+  "det_backend": "auto",
+  "fallback_full_scan": false,
+  "window_half_rows": 50,
+  "max_window_half_rows": 250,
+  "Ecm_cutoff": 0.335,
+  "max_fcn": 25,
+  "max_fcn_evals": 25,
+  "max_iterations": 10,
+  "max_iterations_supported_by_executable": false,
+  "Lbyas_irreps": ["20/000_A1m", "24/000_A1m"],
+  "config_used_by_executable": "fitter_000_A1m_short_minimize.in",
+  "K3df": {
+    "K3iso0": 73735.840894011912,
+    "K3iso1": -972421.14060757787,
+    "K3B": 347174.05548116949,
+    "K3E": -1226756.7068845264
+  }
+}

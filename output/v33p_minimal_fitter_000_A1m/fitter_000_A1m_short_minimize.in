@@ -1,0 +1,95 @@
+# Bounded short minimization: L20/L24 000_A1m only.
+Lbyas_values = 20 24
+lattice_jackknife_dir = /home/digonto/Codes/KKpi_I2/spectrum/Ecm_data/data
+lattice_jack_energy_type = En_lab
+jack_skip_header_lines = 1
+jack_energy_column = 2
+Ecm_cutoff = 0.335
+energy_cutoff = 0.335
+max_total_lattice_levels = 0
+max_lattice_levels_per_block = 0
+max_fcn_evals = 25
+irreps_L20 = 000_A1m
+irreps_L24 = 000_A1m
+list_of_mom = 000_A1m
+
+xival = 3.444
+atmK = 0.09698
+atmpi = 0.06906
+eta_1 = 1.0
+eta_2 = 0.5
+alpha = 0.5
+epsilon_h = 0.0
+max_shell_num = 20
+tolerance = 1e-12
+parity = -1
+eig_tol = 0.05
+norm_tol = 1e-12
+proj_tol = 1e-10
+waves_vec_1 = 0 1
+waves_vec_2 = 0
+scatter1_00 = 4.04
+scatter1_10 = -43.2
+scatter2_00 = 4.12
+
+scan_E0 = 0.26310
+scan_E1 = 0.36
+coarseN = 20000
+gpu_cachegen_Ecm_min = 0.26310
+gpu_cachegen_Ecm_max = 0.36
+gpu_cachegen_coarseN = 20000
+refineN = 0
+omp_threads = 18
+debug = n
+
+cache_backend = raw_v33e
+auto_build_missing_coarse = 0
+coarse_cache_root = /media/digonto/Data/F3inv_cache
+use_gpu_cache_meta_validation = 1
+coarse_cache_file_list
+20 000_A1m /media/digonto/Data/F3inv_cache/v33e_coarse20000_sep_f2k2_L20_000_A1m/v32zu_Lbyas20_gpu_cache/v32zu_Lbyas20_xi3p444_irrep000_A1m_coarse20000_F3inv_Vsel_gpu.bin
+24 000_A1m /media/digonto/Data/F3inv_cache/v33e_coarse20000_sep_f2k2_L24_000_A1m/v32zu_Lbyas24_gpu_cache/v32zu_Lbyas24_xi3p444_irrep000_A1m_coarse20000_F3inv_Vsel_gpu.bin
+end_coarse_cache_file_list
+
+refined_cache_dir = /media/digonto/Data/F3inv_cache/v32x_multiL_refined_cache
+refined_cache_prefix = short_minimize_disabled
+save_refined_cache = 0
+
+const_norm_power = 6
+classifier_mode = digonto_v3_window
+v3_monotone_tol = 0.02
+v3_min_drop_fraction = 0.15
+v3_min_pole_rise_fraction = 0.15
+v3_require_both_shoulders = 0
+v4_merge_tol = 1e-3
+
+root_search_mode = accepted_windows
+det_backend = auto
+fallback_full_scan = 0
+window_half_rows = 50
+max_window_half_rows = 250
+accepted_zeros_file_L20_000_A1m = output/v33p_fasttrack_cpu_existing_000_A1m/L20_000_A1m_E026310_0360/accepted_truezeros_L20_000_A1m_E026310_0360.csv
+accepted_zeros_file_L24_000_A1m = output/v33p_fasttrack_cpu_existing_000_A1m/L24_000_A1m_E026310_0360/accepted_truezeros_L24_000_A1m_E026310_0360.csv
+candidate_brackets_file_L20_000_A1m = output/v33p_fasttrack_cpu_existing_000_A1m/L20_000_A1m_E026310_0360/candidate_sign_change_brackets_E026310_0360.csv
+candidate_brackets_file_L24_000_A1m = output/v33p_fasttrack_cpu_existing_000_A1m/L24_000_A1m_E026310_0360/candidate_sign_change_brackets_E026310_0360.csv
+det_grid_file_L20_000_A1m = output/v33p_fasttrack_cpu_existing_000_A1m/L20_000_A1m_E026310_0360/det_grid_L20_000_A1m_corrected_E026310_0360.csv
+det_grid_file_L24_000_A1m = output/v33p_fasttrack_cpu_existing_000_A1m/L24_000_A1m_E026310_0360/det_grid_L24_000_A1m_corrected_E026310_0360.csv
+one_fcn_only = 0
+
+K3iso0_guess = 73735.840894011912
+K3iso1_guess = -972421.14060757787
+K3B_guess = 347174.05548116949
+K3E_guess = -1226756.7068845264
+K3iso0_step = 1000.0
+K3iso1_step = 10000.0
+K3B_step = 1000.0
+K3E_step = 10000.0
+use_parameter_limits = 0
+max_fcn = 25
+use_lattice_covariance = 1
+chi_square_mode = raw_cov_inv
+failure_penalty = 1e100
+print_each_fcn_eval = 1
+print_every_fcn_eval = 1
+output_dir = output/v33p_minimal_fitter_000_A1m/short_minimize_hot_windows_000_A1m
+output_tag = short_minimize_hot_windows_000_A1m
