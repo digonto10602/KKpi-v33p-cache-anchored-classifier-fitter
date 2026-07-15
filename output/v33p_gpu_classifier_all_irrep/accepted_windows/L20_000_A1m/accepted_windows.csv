@@ -1,0 +1,2 @@
+Lbyas,irrep,lattice_level_index,lattice_Ecm,bracket_id,E_left_bracket,E_right_bracket,zero_estimate_initial,center_row,row_left,row_right,max_row_left,max_row_right,previous_model_zero,has_previous_model_zero,inside_Ecm_cutoff
+20,000_A1m,0,0.2692266019900497,1,2.69321291064553214e-01,2.69326136306815345e-01,0.26932269955846955,1284,1234,1334,1034,1534,0.26932269955846955,true,true

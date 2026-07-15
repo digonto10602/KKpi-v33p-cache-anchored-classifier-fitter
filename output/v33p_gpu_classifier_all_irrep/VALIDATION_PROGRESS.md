@@ -15,10 +15,10 @@ classifier validation has started in a bounded two-sector batch.
 
 ## Sector queue
 
-1. L24/100_A2 — scored; v3/v4 both FAIL acceptance with TP=9, FP=1, FN=0, TN=42; review required
+1. L24/100_A2 — reviewed; v3/v4 both FAIL acceptance with TP=9, FP=1, FN=0, TN=42; manual cutoff-limited windows count-match, user label unchanged
 2. L20/110_A2 — scored PASS; v3/v4 both TP=4, FP=0, FN=0, TN=32; accepted window created
-3. L20/111_A2 — processed; 30 candidates; v3/v4 each predict 5 true-zero candidates; labels needed
-4. L20/200_A2
+3. L20/111_A2 — scored PASS; v3/v4 both TP=5, FP=0, FN=0, TN=25; 2 accepted zeros and 2 lattice levels; accepted window created
+4. L20/200_A2 — next sector prepared
 5. L24/110_A2
 6. L24/111_A2
 7. L24/200_A2
@@ -27,5 +27,7 @@ The processed sectors reused completed corrected CPU raw determinant grids; the
 projected-basis chunk was not substituted for the full-sector raw grid.
 This preserves raw determinant primacy while avoiding duplicate cache scans.
 
-The accepted-sector fitter is blocked until the L24/100_A2 review is resolved.
+The previous accepted-sector fitter run used four accepted sectors and passed
+10/10 roots. The next one-FCN run will add L20/111_A2 and continue to exclude
+L24/100_A2 because its classifier score remains FAIL.
 No sector is globally accepted until its user labels are scored with FP=0 and FN=0.

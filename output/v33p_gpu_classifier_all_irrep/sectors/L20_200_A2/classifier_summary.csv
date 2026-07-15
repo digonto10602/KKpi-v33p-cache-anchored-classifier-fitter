@@ -1,0 +1,3 @@
+method,n_true_zero,n_pole,n_uncertain,runtime_seconds,notes
+digonto_v3_window,5,30,0,0.000477203008,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present
+digonto_v4_window,5,30,0,0.000395260009,CSV-only corrected-grid restart; matrix modes reuse matching v33l corrected-cache diagnostics when present

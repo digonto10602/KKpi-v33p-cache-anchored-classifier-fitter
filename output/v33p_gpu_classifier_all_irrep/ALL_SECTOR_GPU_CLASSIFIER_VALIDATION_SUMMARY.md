@@ -1,15 +1,15 @@
 # GPU classifier validation summary
 
-Status: `NEW_LABELS_SCORED_REVIEW_NEEDED`.
+Status: `L20_111_A2_LABELS_SCORED_PASS`.
 
 | sector | rows | candidates | v3/v4 predictions | score status | fitter status |
 |---|---:|---:|---:|---|---|
 | L20/000_A1m | existing accepted | existing | existing | PASS | available |
 | L24/000_A1m | existing accepted | existing | existing | PASS | available |
 | L20/100_A2 | existing accepted | existing | existing | PASS | available |
-| L24/100_A2 | 20000 | 52 | 10 / 10 true predictions | FAIL: TP=9 FP=1 FN=0 TN=42 | excluded |
+| L24/100_A2 | 20000 | 52 | 10 / 10 true predictions | FAIL: TP=9 FP=1 FN=0 TN=42 | manual windows; one-FCN startup blocked |
 | L20/110_A2 | 20000 | 36 | 4 / 4 true predictions | PASS: TP=4 FP=0 FN=0 TN=32 | accepted window ready |
-| L20/111_A2 | 20000 | 30 | 5 / 5 true predictions | waiting for labels | excluded |
+| L20/111_A2 | 20000 | 30 | 5 / 5 true predictions | PASS: TP=5 FP=0 FN=0 TN=25 | accepted window ready (2/2 count match) |
 
 L24/100_A2 false-positive bracket: `bracket_id=36` (both v3 and v4).
 
@@ -21,4 +21,5 @@ All new grids reused completed corrected raw determinant outputs. No cachegen,
 cache regeneration, or determinant scan was run in this task. Raw determinant
 remains the classifier quantity; logabs/logdet were not used.
 
-Remaining label work: `input/v33p_gpu_user_truezero_labels_L20_111_A2.csv`.
+Remaining label work: L20/200_A2 and the later incomplete sectors; L24/100_A2 remains excluded after its FP=1 classifier result.
+Current fitter status: the previous four-sector run passed 10/10 roots; the next one-FCN run will add L20/111_A2.
