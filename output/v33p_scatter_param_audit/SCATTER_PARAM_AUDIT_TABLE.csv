@@ -1,0 +1,1747 @@
+file,parameter,value,expected_value,status,used_by_current_pipeline,action_needed
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,xi,3.444,3.444,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,parity,-1,-1,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,waves_vec_1,"0,1",0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,scatter1_00,<missing>,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31z_projected_F3inv_zero_110A2_L24.in,scatter2_00,<missing>,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,atmpi,0.9,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,parity,-1,-1,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31ze_projected_F3inv_M1M2_L4.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,parity,-1,-1,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter001.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,parity,-1,-1,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,scatter1_00,0.1,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zh_M1_1_M2_0p5_scatter010.in,scatter2_00,0.1,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,parity,-1,-1,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter001.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,parity,-1,-1,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,scatter1_00,0.1,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zi_M1_1_M2_0p5_scatter010.in,scatter2_00,0.1,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,parity,-1,-1,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter001.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,parity,-1,-1,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,scatter1_00,0.1,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zk_M1_1_M2_0p5_L6_000A1m_scatter010.in,scatter2_00,0.1,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,parity,-1,-1,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter001.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,parity,-1,-1,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,scatter1_00,0.1,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zm_M1_1_M2_0p5_L6_000A1m_scatter010.in,scatter2_00,0.1,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,parity,-1,-1,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter001.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,parity,-1,-1,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,scatter1_00,0.1,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zo_110A2_M1_1_M2_0p5_scatter010.in,scatter2_00,0.1,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,parity,-1,-1,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,scatter1_10,1.00,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves01_scatter1p100.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,parity,-1,-1,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,waves_vec_1,0,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zv_000A1m_waves0_scatter001.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zv_000A1m_waves0_scatter001.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,parity,-1,-1,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p010.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p010.in,scatter1_10,0.10,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p010.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p100.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p100.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p100.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p100.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,parity,-1,-1,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v31zw_110A2_waves01_scatter1p100.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p100.in,scatter1_10,1.00,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v31zw_110A2_waves01_scatter1p100.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,parity,-1,-1,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p010.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p010.in,scatter1_10,0.10,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p010.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p100.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p100.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p100.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p100.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,parity,-1,-1,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32_110A2_waves01_scatter1p100.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p100.in,scatter1_10,1.00,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v32_110A2_waves01_scatter1p100.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p010.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p010.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p010.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p010.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,parity,-1,-1,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p010.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p010.in,scatter1_10,0.10,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p010.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p100.in,xi,1.0,3.444,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p100.in,atmK,1.0,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p100.in,atmpi,0.5,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p100.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,parity,-1,-1,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32b_110A2_waves01_scatter1p100.in,scatter1_00,0.01,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p100.in,scatter1_10,1.00,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v32b_110A2_waves01_scatter1p100.in,scatter2_00,0.01,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,parity,-1,-1,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32d_110A2_latticeM_splusp_fixed.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,parity,-1,-1,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32f_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,parity,-1,-1,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32f_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,parity,-1,-1,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32j_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,parity,-1,-1,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32j_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,parity,-1,-1,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32l_K3df_fit_fullF3inv_QCfull_cached_classifier.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,parity,-1,-1,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32l_fixed_K3df_spectrum_fullF3inv_QCfull.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,parity,-1,-1,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32m_K3df_fit_fullF3inv_QCfull_oldclassifier.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,parity,-1,-1,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32n_defaultK3df_QC_cache_plot.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,max_shell_num,20.0,20,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,tolerance,1.0e-12,1e-12,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,parity,-1,-1,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,norm_tol,1.0e-12,1e-12,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,proj_tol,1.0e-10,1e-10,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32q_F3inv_QC_4panel_K3df1em5_L20ensemble_audit.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,parity,-1,-1,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32s_projF3inv_norm_refine_v2_Enlab.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,parity,-1,-1,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32t_projF3inv_norm_refine_v2_oneShoulder_Enlab.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,parity,-1,-1,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32u_QC_fitter_norm_refine_v2.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,parity,-1,-1,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32v_QC_fitter_norm_refine_v2.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,parity,-1,-1,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,parity,-1,-1,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32w_QC_fitter_norm_refine_v2_fixedcoarse_run.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,parity,-1,-1,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32x_multiL_QC_fitter.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,parity,-1,-1,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32x_multiL_QC_fitter_smoke.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,xi,3.444,3.444,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,max_shell_num,20,20,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,parity,-1,-1,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v32x_multiL_QC_spectrum_only.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,xi,3.444,3.444,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,atmK,0.09698,0.09698,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,atmpi,0.06906,0.06906,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,eta_1,1.0,1.0,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,eta_2,0.5,0.5,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,alpha,0.5,0.5,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,epsilon_h,0.0,0.0,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,max_shell_num,20,20,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,tolerance,1e-12,1e-12,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,parity,-1,-1,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,eig_tol,0.05,0.05,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,norm_tol,1e-12,1e-12,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,proj_tol,1e-10,1e-10,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,waves_vec_1,0 1,0 1,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,waves_vec_2,0,0,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,scatter1_00,4.04,4.04,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,scatter1_10,-43.2,-43.2,PASS,no,none
+configs/config_v33a_multiL_QC_fitter_coarse20000_v3.in,scatter2_00,4.12,4.12,PASS,no,none
+configs/config_v33f_F3inv_iso_visual_test.in,xi,3.444,3.444,PASS,no,none
+configs/config_v33f_F3inv_iso_visual_test.in,atmK,<missing>,0.09698,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,atmpi,<missing>,0.06906,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,eta_1,<missing>,1.0,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,eta_2,<missing>,0.5,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,alpha,<missing>,0.5,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,epsilon_h,<missing>,0.0,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,max_shell_num,<missing>,20,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,tolerance,<missing>,1e-12,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,parity,<missing>,-1,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,eig_tol,<missing>,0.05,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,norm_tol,<missing>,1e-12,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,proj_tol,<missing>,1e-10,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,waves_vec_1,<missing>,0 1,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,waves_vec_2,<missing>,0,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,scatter1_00,<missing>,4.04,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_F3inv_iso_visual_test.in,scatter2_00,<missing>,4.12,FAIL,no,leave archival/test config unchanged
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,parity,-1,-1,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,parity,-1,-1,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,parity,-1,-1,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,parity,-1,-1,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,xi,3.444,3.444,PASS,no,none
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,atmK,<missing>,0.09698,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,atmpi,<missing>,0.06906,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,eta_1,<missing>,1.0,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,eta_2,<missing>,0.5,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,alpha,<missing>,0.5,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,epsilon_h,<missing>,0.0,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,max_shell_num,<missing>,20,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,tolerance,<missing>,1e-12,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,parity,<missing>,-1,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,eig_tol,<missing>,0.05,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,norm_tol,<missing>,1e-12,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,proj_tol,<missing>,1e-10,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,waves_vec_1,<missing>,0 1,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,waves_vec_2,<missing>,0,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,scatter1_00,<missing>,4.04,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,scatter1_10,<missing>,-43.2,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_F3inv_iso_visual_test.runtime.in,scatter2_00,<missing>,4.12,FAIL,no,leave archival/test config unchanged
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,parity,-1,-1,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33f_QC_spectrum_generator_v33e_v3.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,parity,-1,-1,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33f_multiL_000A1m_5levels_v33e_v3.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,parity,-1,-1,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33f_multiL_all_irreps_v33e_v3.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_build_runtime_cache.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_build_runtime_cache_000A1m.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_multiL_000A1m_runtime_smoke.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_multiL_all_irreps_runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,parity,-1,-1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33g_validate_runtime_vs_v33f_000A1m.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,xi,3.444,3.444,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,eta_1,1.0,1.0,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,eta_2,0.5,0.5,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,alpha,0.5,0.5,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,max_shell_num,20,20,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,parity,-1,-1,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,waves_vec_2,0,0,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/config_v33m_multiL_all_irreps_fastest_production.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p315.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p325.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p335.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p345.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p355.in,scatter2_00,4.12,4.12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,xi,3.444,3.444,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,atmK,0.09698,0.09698,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,atmpi,0.06906,0.06906,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,eta_1,1.0,1.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,eta_2,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,alpha,0.5,0.5,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,epsilon_h,0.0,0.0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,max_shell_num,20,20,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,tolerance,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,parity,-1,-1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,eig_tol,0.05,0.05,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,norm_tol,1e-12,1e-12,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,proj_tol,1e-10,1e-10,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,waves_vec_1,0 1,0 1,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,waves_vec_2,0,0,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,scatter1_00,4.04,4.04,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+configs/v33n_cutoff_scan/config_v33n_Ecmcut_0p365.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,parity,-1,-1,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_classifier_accepted_sectors.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,parity,-1,-1,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_gpu_classifier_all_irrep/fitter/fitter_current_accepted_sectors.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,parity,-1,-1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_chi2_audit.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,parity,-1,-1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_controlled_minimize.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,parity,-1,-1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_hot_windows.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,parity,-1,-1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_reduced_minimize.in,scatter2_00,4.12,4.12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,xi,3.444,3.444,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,atmK,0.09698,0.09698,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,atmpi,0.06906,0.06906,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,eta_1,1.0,1.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,eta_2,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,alpha,0.5,0.5,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,epsilon_h,0.0,0.0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,max_shell_num,20,20,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,tolerance,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,parity,-1,-1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,eig_tol,0.05,0.05,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,waves_vec_2,0,0,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,scatter1_00,4.04,4.04,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output/v33p_minimal_fitter_000_A1m/fitter_000_A1m_short_minimize.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.pipeline1.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.force.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_000A1m_5levels_v33e_v3.v33gbuild.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.pipeline1_omp1.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,xi,3.444,3.444,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,atmK,0.09698,0.09698,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,atmpi,0.06906,0.06906,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,eta_1,1.0,1.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,eta_2,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,alpha,0.5,0.5,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,epsilon_h,0.0,0.0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,max_shell_num,20,20,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,tolerance,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,parity,-1,-1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,eig_tol,0.05,0.05,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,norm_tol,1e-12,1e-12,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,proj_tol,1e-10,1e-10,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,waves_vec_1,0 1,0 1,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,waves_vec_2,0,0,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,scatter1_00,4.04,4.04,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,scatter1_10,-43.2,-43.2,PASS,yes,none
+output_v33f/runtime_configs/config_v33f_multiL_all_irreps_v33e_v3.v33gbuild.runtime.in,scatter2_00,4.12,4.12,PASS,yes,none

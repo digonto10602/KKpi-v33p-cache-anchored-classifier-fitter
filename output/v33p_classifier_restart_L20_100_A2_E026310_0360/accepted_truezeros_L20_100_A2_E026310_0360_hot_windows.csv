@@ -1,0 +1,3 @@
+Lbyas,irrep,bracket_id,E_left,E_right,E_mid,zero_estimate,accepted_by_methods,user_label,inside_Ecm_cutoff
+20,100_A2,7,0.291551262563128133,0.291556107805390263,0.291553685184259198,0.29155609987916675,digonto_v3_window;digonto_v4_window,true,true
+20,100_A2,8,0.300437436871843599,0.300442282114105763,0.300439859492974681,0.30044149754668775,digonto_v3_window;digonto_v4_window,true,true
